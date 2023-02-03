@@ -38,12 +38,9 @@ ___김채원___입니다.
 ***
 1. 한 줄 소스 코드
  `var arr = new Array();`
+ 
        arr[0] = "홍길동";
-       arr[5] = 12345;
-       arr[10] = "서울시 강남구";
-       arr[15] = "aaa@naver.com";
-      // document.write("arr[0] :" , arr[0]); 
-      // 배열명.length : 배열의 갯수 구하기
+
       
 2. 여러줄 소스코드      
       ```
@@ -51,22 +48,14 @@ ___김채원___입니다.
          document.write("</br>arr["+idx+"] : " + arr[idx]);
       }
       
-      //초기값이 있는 배열선언
-      var arr2 = new Array("HTML","CSS","JAVASCRIPT");
-      var arr3 = ["Spring","mybatis"];
-
-      //배열에 데이터 추가
-      arr2.push("JSP");
-      document.write("</br> arr2 : " + arr2);
-      console.log(arr2);
-      //배열의 값을 특정문자 만들기
-      var arrStr = arr2.join('/');
-      document.write("</br>arrStr : " + arrStr);
-
-      // 배열의 마지막 값 제거하기
-      arr2.pop();
-      document.write("</br>arr1.pop() : " + arr2);
+  ---
+### 링크 삽입하기
+<https://cafe.naver.com/hicode>
       
-      // 배열과 배열 합치기
-      var arr4 = arr2.concat(arr3);  //arr3.concat(arr2)
-      document.write("</br>arr4 : " , arr4);
+[Hello코딩놀이터](https://cafe.naver.com/hicode)
+      
+[구글](https://google.com, "검색 사이트")
+     
+
+
+
